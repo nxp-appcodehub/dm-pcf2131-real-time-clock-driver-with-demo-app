@@ -1,0 +1,26 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-pcf2131-real-time-clock-driver-with-demo-app" type="demo" format="cmsis" versionSchema="1.0.0" name="pcf2131 real time clock driver with demo app">
+    <display_title>
+        PCF2131 : Real Time Clock driver on FRDM-MCXN947.
+    </display_title>
+    <overview>
+        <![CDATA[This example demo provides CMSIS Compliant APIs to configure different operating modes of PCF2131 RTC. It also provides APIs to perform below mentioned operations:<br /><ul><li>RTC Start</li><li>RTC Stop</li><li>Get Time</li><li>Set Time</li><li>Record Timestamps on Switches</li><li>Software Reset </li></ul>]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_pcf2131_ard"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="spi"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="sensor"></category>
+    </categories>
+</data:item>
