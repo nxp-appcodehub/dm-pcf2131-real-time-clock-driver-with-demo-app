@@ -220,3 +220,4 @@ Questions regarding the content/correctness of this example can be entered as Is
 |:-------:|------------------------------------------------|----------------------------:|
 | 1.0     | Initial release on Application Code Hub        | March 28<sup>th</sup> 2024 |
 | 2.0     | Additional features for PCF2131 on FRDM-MCXN947 and Complete features for PCF2131 on FRDM-MCXA153      | April 30<sup>th</sup> 2024 |
+| 3.0     | Fixed Bugs related to EDMA for FRDM-MCXN947 & FRDM-MCXA153     | May 30<sup>th</sup> 2024 |

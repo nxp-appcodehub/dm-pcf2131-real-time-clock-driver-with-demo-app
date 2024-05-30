@@ -50,10 +50,10 @@ extern void LPUART0_InitPins_deinit();
 #define RTE_SPI1_PIN_INIT               LPSPI1_InitPins
 #define RTE_SPI1_PIN_DEINIT             LPSPI1_DeinitPins
 #define RTE_SPI1_DMA_TX_CH              0
-#define RTE_SPI1_DMA_TX_PERI_SEL        (uint16_t) kDma0RequestMuxLpFlexcomm1Tx
+#define RTE_SPI1_DMA_TX_PERI_SEL        (uint16_t) kDma0RequestLPSPI1Tx
 #define RTE_SPI1_DMA_TX_DMA_BASE        DMA0
 #define RTE_SPI1_DMA_RX_CH              1
-#define RTE_SPI1_DMA_RX_PERI_SEL        (uint16_t) kDma0RequestMuxLpFlexcomm1Rx
+#define RTE_SPI1_DMA_RX_PERI_SEL        (uint16_t) kDma0RequestLPSPI1Rx
 #define RTE_SPI1_DMA_RX_DMA_BASE        DMA0
 
 /* Driver name mapping. */

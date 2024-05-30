@@ -39,7 +39,7 @@
  ******************************************************************************/
 #if (RTE_I2C2_DMA_EN || RTE_SPI1_DMA_EN)
 #define EXAMPLE_DMA_BASEADDR (DMA0)
-#define EXAMPLE_DMA_CLOCK    kCLOCK_Dma0
+#define EXAMPLE_DMA_CLOCK    kCLOCK_GateDMA
 #endif
 
 //-----------------------------------------------------------------------
