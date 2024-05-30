@@ -37,9 +37,9 @@
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
-#if (RTE_I2C2_DMA_EN || RTE_SPI1_DMA_EN)
+#if (RTE_I2C0_DMA_EN || RTE_SPI1_DMA_EN)
 #define EXAMPLE_DMA_BASEADDR (DMA0)
-#define EXAMPLE_DMA_CLOCK    kCLOCK_Dma0
+#define EXAMPLE_DMA_CLOCK    kCLOCK_GateDMA
 #endif
 
 //-----------------------------------------------------------------------
@@ -1443,7 +1443,7 @@ int main(void)
 	pcf2131_sensorhandle_t pcf2131Driver;
 
 	/* Enable EDMA for I2C/SPI */
-#if (RTE_I2C2_DMA_EN || RTE_SPI1_DMA_EN)
+#if (RTE_I2C0_DMA_EN || RTE_SPI1_DMA_EN)
 	/* Enable DMA clock. */
 	CLOCK_EnableClock(EXAMPLE_DMA_CLOCK);
 	edma_config_t edmaConfig = {0};
